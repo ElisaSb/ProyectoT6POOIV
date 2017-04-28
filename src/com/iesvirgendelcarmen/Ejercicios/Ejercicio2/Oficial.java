@@ -1,7 +1,7 @@
 package com.iesvirgendelcarmen.Ejercicios.Ejercicio2;
 
 public class Oficial extends Trabajador {
-	final double PAGA_DIARIA = 100;
+	private static final double PAGA_DIARIA = 100;
 	//atributos
 	private String clase;
 	//constructor
@@ -11,7 +11,7 @@ public class Oficial extends Trabajador {
 	}
 	//metodos
 	@Override
-	public double sueldoMensual(int diasTrabajados) {
+	public double obtenerSueldoMensual(int diasTrabajados) {
 		return diasTrabajados*PAGA_DIARIA;
 	}
 	

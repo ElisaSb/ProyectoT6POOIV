@@ -11,7 +11,7 @@ public class Tecnico extends Trabajador {
 	}
 	//metodos
 	@Override
-	public double sueldoMensual(int diasTrabajados) {
+	public double obtenerSueldoMensual(int diasTrabajados) {
 		return PAGA_DIARIA*diasTrabajados;
 	}
 	

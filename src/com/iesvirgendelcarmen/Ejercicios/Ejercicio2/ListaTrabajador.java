@@ -11,10 +11,10 @@ public class ListaTrabajador {
 		return listaTrabajadores.add(t);
 	}
 	//toString
-	/*
+	
 	@Override
 	public String toString() {
-		return "ListaTrabajador [listaTrabajadores=" + listaTrabajadores + "]";
+		return listaTrabajadores.toString();
 	}
-	*/
+	
 }

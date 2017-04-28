@@ -13,11 +13,11 @@ public abstract class Trabajador {
 	protected String nombreApellidos() {
 		return nombre+" "+apellidos;
 	}
-	public abstract double sueldoMensual(int diasTrabajados);
+	public abstract double obtenerSueldoMensual(int diasTrabajados);
 	//toString
 	@Override
 	public String toString() {
-		return "nombre= " + nombre + ", apellidos= " + apellidos + "]";
+		return "\n nombre= " + nombre + ", apellidos= " + apellidos;
 	}
 	
 }

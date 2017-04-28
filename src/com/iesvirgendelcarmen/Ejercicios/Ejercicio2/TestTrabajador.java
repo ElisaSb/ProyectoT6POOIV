@@ -6,7 +6,12 @@ public class TestTrabajador {
 		ListaTrabajador lista = new ListaTrabajador();
 		
 		Trabajador t1 = new Oficial("Carlos", "Aguilar Ortega", "boka");
-		//Trabajador t2 = new Tecnico("Elisa", "Serrano Blazquez", "Programador");
+		Trabajador t2 = new Tecnico("Elisa", "Serrano Blazquez", true);
+		
+		lista.annadirTrabajador(t1);
+		lista.annadirTrabajador(t2);
+		
+		System.out.println(lista);
 		
 		
 	}
